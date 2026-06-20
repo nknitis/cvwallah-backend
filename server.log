@@ -1,0 +1,27 @@
+
+> cv-wallah-backend@1.0.0 dev
+> nodemon src/server.js
+
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server.js`[39m
+CV Wallah API running on http://localhost:5000
+[0mGET / [32m200[0m 14.701 ms - 103[0m
+[0mPOST /api/ats-score [31m503[0m 3.214 ms - 88[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+CV Wallah API running on http://localhost:5000
+[0mPOST /api/ats-score [32m200[0m 12025.455 ms - 941[0m
+[0mGET / [32m200[0m 1.025 ms - 103[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+CV Wallah API running on http://localhost:5000
+[0mGET / [32m200[0m 3.515 ms - 103[0m
+[0mGET / [32m200[0m 0.372 ms - 103[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+CV Wallah API running on http://localhost:5000
+[0mGET / [32m200[0m 4.428 ms - 103[0m
+[0mPOST /api/roast-cv [32m200[0m 10118.975 ms - 1424[0m

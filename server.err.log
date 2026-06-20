@@ -1,0 +1,14 @@
+GEMINI_API_KEY is not set. AI routes will fail until it is configured.
+Error: GEMINI_API_KEY is missing. Add it to backend/.env and restart the backend.
+    at generateText (file:///C:/Users/Nitish/OneDrive/Desktop/CvWallah/backend/src/services/geminiService.js:26:17)
+    at generateJson (file:///C:/Users/Nitish/OneDrive/Desktop/CvWallah/backend/src/services/geminiService.js:37:25)
+    at checkAtsScore (file:///C:/Users/Nitish/OneDrive/Desktop/CvWallah/backend/src/controllers/aiController.js:21:26)
+    at Layer.handle [as handle_request] (C:\Users\Nitish\OneDrive\Desktop\CvWallah\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Nitish\OneDrive\Desktop\CvWallah\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Nitish\OneDrive\Desktop\CvWallah\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Nitish\OneDrive\Desktop\CvWallah\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Nitish\OneDrive\Desktop\CvWallah\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Nitish\OneDrive\Desktop\CvWallah\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Nitish\OneDrive\Desktop\CvWallah\backend\node_modules\express\lib\router\index.js:280:10) {
+  status: 503
+}
