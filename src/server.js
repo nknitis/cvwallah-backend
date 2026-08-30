@@ -48,6 +48,8 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api", aiRoutes);
+// Support clients that may omit the /api prefix in production.
+app.use("/", aiRoutes);
 
 app.use((req, res) => {
   res.status(404).json({ message: "Route not found" });
