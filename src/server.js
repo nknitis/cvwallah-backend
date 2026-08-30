@@ -13,7 +13,9 @@ const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
 const allowedOrigins = [
   CLIENT_URL,
   "http://localhost:5173",
-  "http://127.0.0.1:5173"
+  "http://127.0.0.1:5173",
+  "https://www.cvwallah.in",
+  "https://cvwallah.in"
 ];
 const viteLocalOriginPattern = /^http:\/\/(localhost|127\.0\.0\.1):517\d$/;
 
